@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: hwb(300 0% 49%);
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  padding: 10px 0px;
+}
+nav{
+  width: 80%;
+  height: 50px;
+  background-color: hwb(298 16% 0% / 0.27450980392156865);
+  margin: 0px auto;
+  border: 1px solid hwb(0 84% 15%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  box-shadow: 1px 1px 5px hwb(307 0% 78%);
+}
+
+.logo > .circle{
+  width: 30px;
+  height: 30px;
+  background-color: hwb(306 0% 60%);
+  border-radius: 50px;
+}
+.logo > h1{
+  font-size: 26px;
+  color: #fff;
+}
+.logo{
+  display: flex;
+  gap: 10px;
+}
+
+.menu ul{
+  display: flex;
+  color: hwb(0 89% 10%);
+  font-weight: 500;
+  list-style: none;
+  gap: 20px;
+}
+
+
+.sign button{
+  border: none;
+  padding: 7px 20px;
+  background-color: hwb(306 0% 60%);
+  border-radius: 7px;
+}
+
+.sign button a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: block;
+  margin: 10px;
+}
